@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.btn{
+    display: block;
+    padding: 5px 15px;
+    width: 120px;
+}
+.align-start{
+    align-items: flex-start;
+}
+
+
+/* header */
+.header{
+    background: url('/img/bg-min2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    background-position: center;
+}
+.header__logo{
+    width: 100px;
+}
+.header__logo img{
+    width: 100%;
+}
+.header__min{
+    min-height: 150px;
+    background: url('/img/bg-min2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Стиль для откл блока */
+.dn{
+    display: none;
+} 
+/* Стиль для откл блока */
+
+.header__head{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.linkpage{
+    padding: 20px 35px;
+}
+.linkpage_l{
+    font-size: 13px;
+    font-weight: 400;
+}
+.linkpage__active{
+    color: #ffa701;
+    font-size: 16px;
+    font-weight: 600;
+}
+.linkpage_l:hover{
+    color: #ffa701;
+    font-weight: 600;
+}
+.tel_number{
+    border-bottom: 2px dashed #000;
+    transition: all 0.5s ease;
+}
+.tel_number:hover{
+    color: #fff;
+    border-bottom: 2px dashed #fff;
+}
+.light{
+    font-size: 12px;
+}
+.header__logo a{
+    font-size: 18px;
+    font-weight: 700;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.header__item{
+    padding: 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.header__item_active{
+    background: #93D410;
+    background-image: linear-gradient(to top, #639400 0%, #a0e415 100%);
+    border-radius: 3px;
+    font-weight: 600px;
+    box-shadow: 5px 5px 5px lightblue; 
+    position: relative;
+    display: block;
+    padding: 5px 15px;
+}
+.header__item_active a{
+    color: #fff;
+}
+.header__item_active::after{
+    content: "";
+    position:absolute ;
+    top: -10px;
+    right: -14px;
+    background-image: url('../img/zerno.png');
+    background-size: cover;
+    background-position: center;
+    width: 38px;
+    height: 40px;
+}
+.header__item a:hover{
+    color: inherit;
+}
+
+
+/* promo */
+.header__promo{
+    margin-top: 150px;
+    padding: 50px 25px;
+    text-align: center;
+}
+.header__h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.header__h2{
+    font-size: 30px;
+    color: #ffa701;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+/* PROMO */
+
+.header__promo{
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.header__promo::before{
+    content: "";
+    background-image: url(/img/promo-zerno1.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    width: 250px;
+    height: 150px;
+}
+
+/* about */
+.about{
+    padding: 70px 0;
+}
+.about__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__item:first-child{
+    min-width: 300px;
+}
+.about__title{
+    font-size: 24px;
+}
+.about__item:last-child{
+    padding-left: 20px;
+}
+.about__item img{
+    width: 100%;
+}
+
+/* products */
+
+.products{
+    padding: 70px 0;
+}
+.products__title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.products__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.products__item{
+    max-width: 33.33%;
+    padding: 40px 10px 0 10px;
+}
+.products__img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.products__img img{
+    width: 100%;
+}
+.products__item_title{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.products__item_title a{
+    border-bottom: 1px solid #000;
+}
+.products__item_subtitle{
+    padding-top: 20px;
+}
+
+/* footer */
+
+.footer{
+    background: #454545;
+    padding: 10px 0;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__img{
+    width: 70px;
+}
+.footer__img img{
+    width: 100%;
+}
+.footer__text{
+    color: #fff;
+}
+.footer__right p{
+    display: inline-block;
+    color: #fff;
+    padding: 0 10px 0 0;
+}
+.footer__right_img{
+    width: 50px;
+}
+
+
+
+
+/* Адаптивность  */
+@media (max-width: 1400px) {
+    /*
+    Стили для устройств, у которых ширина viewport меньше или равно 1400 пикселей,
+    но больше 990 пикселей.
+    Эти стили будут использованы для планшетов и ноутбуков с низким разрешением
+    */
+  }
+
+  @media (max-width: 990px) {
+    /*
+    Стили для устройств, у которых ширина viewport меньше или равно 990 пикселей,
+    но больше 770 пикселей.
+    Эти стили подойдут для некоторых мобильных устройств и планшетов
+    */
+  }
+
+  @media (max-width: 770px) {
+    .container{
+        padding: 0 10px;
+    }
+    .header__menu{
+        display: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .header{
+        background-image: none;
+    }
+  }
