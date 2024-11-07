@@ -4,7 +4,7 @@
             <div class="footer__block">
                 <div class="footer__left">
                     <div class="footer__img">
-                        <img src="/img/alto-logo.png" alt="logo-footer">
+                        <img src="/img/alto-logo-white.png" alt="logo-footer">
                     </div>
                     <div class="footer__text">
                          © alto-grain.kz 2024. Все права защищены		
@@ -26,6 +26,11 @@
         wow.init();
 
         $(document).ready(function() {
+
+            $('.burger__menu').on('click', function(){
+                $(this).toggleClass('active');
+                $('.header__menu').toggleClass('open');
+            }); 
 
         function setActiveMenuItem(menuSelector) {
             // Получаем текущий путь страницы

@@ -21,6 +21,9 @@
                 <div class="tel">
                     <a href="tel:7757990777" class="tel_number"><span class="light">+7 (7172)</span>  955 - 490</a>
                 </div>
+                <div class="burger__menu">
+                    <span></span>
+                </div>
             </div>
             <div class="header__nav wow animate__fadeInDown" data-wow-duration="1s">
                 <div class="header__logo">
