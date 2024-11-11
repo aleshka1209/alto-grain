@@ -10,6 +10,7 @@
 }
 body{
     overflow-x: hidden;
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -52,7 +53,7 @@ ul{
     width: 100%;
 }
 .header__min{
-    min-height: 150px;
+    min-height: 150px !important;
     background: url('/img/bg-min2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -447,3 +448,26 @@ ul{
     }
   }
 
+/* index page end */
+
+
+
+/* about page begin */
+
+.about-page{
+    padding: 40px 0;
+}
+.about__title{
+    font-weight: 600;
+}
+.about__br{
+    font-weight: 700;
+    padding-top: 20px;
+}
+.about__list{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.about__list li{
+    padding: 2.5px 0;
+}
