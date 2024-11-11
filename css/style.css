@@ -7,6 +7,8 @@
 *{
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 body{
     overflow-x: hidden;
@@ -470,4 +472,29 @@ ul{
 }
 .about__list li{
     padding: 2.5px 0;
+}
+
+/* contacts */
+
+.contacts{
+    padding: 50px 0;
+}
+.contacts__title{
+    font-size: 24px;
+}
+.contacts__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 10px 0;
+}
+.contacts__text{
+    width: 55%;
+}
+.contacts__map{
+    border: 2px solid #ffa701;
+}
+.contacts__br{
+    font-weight: 600;
+    font-size: 18px;
 }

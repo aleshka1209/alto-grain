@@ -13,6 +13,7 @@
                 </div>
                 <div class="contacts__text">
                     <p class="contacts__br">ТОО «Alto Grain</p>
+                    <br>
                     <p>
                     РК, г. Нур-Султан, 010000 <br>
                     Туран 30 А, нп 3, 3 этаж <br>

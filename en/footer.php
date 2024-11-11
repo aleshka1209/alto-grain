@@ -7,11 +7,12 @@
                         <img src="/img/alto-logo-white.png" alt="logo-footer">
                     </div>
                     <div class="footer__text">
-                         © alto-grain.kz 2024. Все права защищены		
+                         © alto-grain.kz 2024. 
+                         All rights reserved		
                     </div>
                 </div>
                 <div class="footer__right">
-                    <p>Разработка сайтов в Астане</p>
+                    <p>Website development in Astana</p>
                     <img src="/img/itspk.svg" alt="itspk-logo" class="footer__rigth_img">
                 </div>
             </div>
@@ -20,7 +21,7 @@
 
 
     
-    <script src="js/wow.min.js"></script>
+    <script src="../js/wow.min.js"></script>
     <script>
         wow = new WOW({animateClass: 'animate__animated'})
         wow.init();
