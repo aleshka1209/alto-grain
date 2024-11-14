@@ -7,8 +7,7 @@
                         <img src="/img/alto-logo-white.png" alt="logo-footer">
                     </div>
                     <div class="footer__text">
-                         © alto-grain.kz 2024. 
-                         All rights reserved		
+                         © alto-grain.kz 2024. All rights reserved		
                     </div>
                 </div>
                 <div class="footer__right">
@@ -20,12 +19,27 @@
     </footer>
 
 
-    
     <script src="../js/wow.min.js"></script>
+    <script src="../js/script.js"></script>
     <script>
         wow = new WOW({animateClass: 'animate__animated'})
         wow.init();
 
+        // Продукты категории 
+        function loadProducts(category) {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'load_products.php', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById('products').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send('category=' + category);
+        }
+        window.onload = function() {
+        loadProducts('grain');
+        };
 
 
         $(document).ready(function() {
@@ -83,11 +97,7 @@
         }
 
         // Вызываем функцию для меню с ID #menu
-            setActiveMenuItem("#menu");
-
-            
-        
-
+            setActiveMenuItem("#menu");                
 
 
 

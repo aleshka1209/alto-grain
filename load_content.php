@@ -395,6 +395,13 @@ if (!isset($_POST['category']) && !isset($_POST['subcategory'])) {
                         <td>-</td>
                     </tr>
                     <tr>
+                        <td>Сорнаяпримесь, %,не более</td>
+                        <td>0,4</td>
+                        <td>0,5</td>
+                        <td>0,6</td>
+                        <td>0,7</td>
+                    </tr>
+                    <tr>
                         <td>Мучка, %,не более</td>
                         <td>-</td>
                         <td>-</td>

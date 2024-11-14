@@ -4,7 +4,7 @@
 
     <div class="contacts">
         <div class="container">
-            <h1 class="contacts__title">Контакты</h1>
+            <h1 class="contacts__title">Contacts</h1>
             <hr class="contacts__hr">
 
             <div class="contacts__block">
@@ -15,8 +15,8 @@
                     <p class="contacts__br">ТОО «Alto Grain</p>
                     <br>
                     <p>
-                    РК, г. Нур-Султан, 010000 <br>
-                    Туран 30 А, нп 3, 3 этаж <br>
+                    RK, Nur-Sultan, 010000 <br>
+                    Turan 30 A, np 3, 3rd floor <br>
                     +7 (7172) 955 – 490 <br>
                     info@Alto-trading.com
 
