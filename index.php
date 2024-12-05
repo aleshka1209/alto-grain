@@ -29,12 +29,12 @@
                 <div class="products__img">
                     <img src="/img/prod/1.png" alt="1">
                 </div>
-                <div class="products__item_title">
+                <h1 class="products__item_title">
                     <a href="products.php">Зерновые Культуры</a>
-                </div>
-                <div class="products__item_subtitle">
+                </h1>
+                <h2 class="products__item_subtitle">
                     Зерновые культуры - важнейшая группа возделываемых растений, дающих зерно, основной продукт питания человека, сырьё для многих отраслей промышленности и корма для сельскохозяйственных животных.
-                </div>
+                </h2>
             </div>
 
             <div class="products__item wow animate__zoomInDown" data-wow-duration="2s">
