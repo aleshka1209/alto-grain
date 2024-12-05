@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ALTO-GRAIN - Закупка и экспорт, сельскохозяйственной продукции">
+    <meta name="keywords" content="ALTO-GRAIN, Сельхозяйстенный, Закупка, Пшеница, Гречиха">
     <title>ТОО ALTO-GRAIN</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
